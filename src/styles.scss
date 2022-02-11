@@ -1,4 +1,4 @@
-@import 'vars.scss';
+@import "./vars.scss";
 .fc-embed {
 	width: 100%;
 	display: block;
@@ -24,6 +24,7 @@
 		width: 100%;
 		height: auto;
 		display: table;
+		margin: 0;
 		transition: opacity 200ms ease-in-out;
 	}
 	&:empty, &.fc-empty {
